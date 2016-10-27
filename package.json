@@ -1,0 +1,20 @@
+{
+  "name": "uptime-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Bagubits",
+  "license": "ISC",
+  "dependencies": {
+    "emailjs": "^1.0.8",
+    "lawgs": "^1.0.2",
+    "moment": "^2.15.1",
+    "node-telegram-bot-api": "^0.23.3",
+    "parse-duration": "^0.1.1",
+    "pushover-notifications": "^0.2.3",
+    "request": "^2.75.0"
+  }
+}

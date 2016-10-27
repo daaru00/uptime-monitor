@@ -1,0 +1,41 @@
+{
+    "debug": true,
+    "interval": "5m",
+    "timeout": "10m",
+    "noRealert": "30m",
+    "notificationEngine": "telegram",
+    "loggerEngine": "cloudwatch",
+    "userAgent": "UPtime",
+    "notifications": {
+        "telegram": {
+            "token": "",
+            "chatId": "",
+            "interactive": true
+        },
+        "email":{
+            "from": "UPTime",
+            "user": "user@gmail.com",
+            "password": "password",
+            "host": "smtp.gmail.com",
+            "ssl": true,
+            "to": "you@example.com"
+        },
+        "pushover":{
+            "user": "",
+            "token": "",
+            "device": "",
+            "sound": "incoming"
+        }
+    },
+    "loggers": {
+        "cloudwatch": {
+            "accessKeyId": "",
+            "secretAccessKey": "",
+            "region": "",
+            "logGroup": "uptime"
+        },
+        "file":{
+            "path": "/path/to/log/uptime.log"
+        }
+    }
+}
